@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--Light-Grayish-Blue);
+    padding: 5%;
+}
+.main{
+    display: flex;
+    width: 1440px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 7px 7px 14px var(--Grayish-Blue);
+    
+}
+.card__img{
+    width: 520px;
+    
+}
+.card__img img{
+    height: 100%;
+}
+.card__body{
+    background-color: #fff;
+    padding: 60px;
+}
+.card__title{
+    margin: 20px 0px 30px 0px ;
+    color: var(--Very-Dark-Grayish-Blue);
+    font-size: 35px;
+    word-spacing: 8px;
+}
+.card__description{
+    color: var(--Desaturated-Dark-Blue);
+    font-size: 24px;
+    margin-bottom:50px ;
+    word-spacing: 8px;
+}
+.card__list{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.card__list li{
+    list-style: none;
+}
+.list__avatar img{
+    border-radius: 50%;
+    width: 80px;
+    margin-right: 20px;
+}
+.list__name{
+    margin-right: 400px;
+}
+
+.list__name h3{
+    color: var(--Very-Dark-Grayish-Blue);
+    width: 200px;
+}
+
+.list__name p{
+    color: var(--Grayish-Blue);
+}
+.list__icon {
+    border-radius: 50%;
+    background-color: var(--Light-Grayish-Blue);
+    width: 40px;
+    height: 40px;
+    background-image: url("./images/icon-share.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right:20px ;
+}
+
